@@ -1,0 +1,525 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;1,700&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161815;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),
+        url(images/bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+
+    
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+  
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    
+}
+
+.menu .navbar ul li a:hover {
+    color: #13975E;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono {
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-txt {
+    width: 70%;
+
+}
+
+
+.header-txt h1 {
+    font-size: 80px;
+    line-height: 130px;
+    color: #FFFFFF;
+    text-transform:uppercase;
+    font-family: 'Bebas Neue',cursive;
+    margin: 25px;
+
+}
+
+.header-txt p {
+
+    font-size: 18px;
+    color: #C4C4C4;
+    margin-bottom: 35px;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #13975E;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Bebas Neue',cursive;  
+     margin-top: 25px;
+}
+
+
+.btn-1:hover {
+    background-color: #19C67B;
+
+}
+
+.header-img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.header-img a {
+    margin-bottom: 40px;
+}
+
+.fotos {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bebas Neue',cursive;
+    letter-spacing: 1px;
+    font-size: 55px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #C4C4C4;
+    text-align: center;
+
+}
+
+.foto-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.foto-1 {
+    background: linear-gradient(
+        rgba(0 , 0, 0, 0.2),
+        rgba(0 , 0, 0, 0.2)),
+        url(images/t1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+
+}
+
+.foto-2 {
+    background: linear-gradient(
+        rgba(0 , 0, 0, 0.2),
+        rgba(0 , 0, 0, 0.2)),
+        url(images/t2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        
+}
+
+.foto-3 {
+    background: linear-gradient(
+        rgba(0 , 0, 0, 0.2),
+        rgba(0 , 0, 0, 0.2)),
+        url(images/t3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        
+}
+
+.foto-4 {
+    background: linear-gradient(
+        rgba(0 , 0, 0, 0.2),
+        rgba(0 , 0, 0, 0.2)),
+        url(images/t4.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 20px;
+
+        
+}
+
+.foto-txt h3 {
+    font-family: 'Bebas Neue',cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.foto-txt p {
+    color: #E1E1E1;
+ 
+    
+}
+
+.video {
+    padding: 150px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(images/bg2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.video-1 {
+    width: 30%;
+    padding-right: 70px;
+
+}
+
+.video-2 { 
+    width: 50%;
+    display: flex;
+
+}
+
+.v1 {
+    width: 300px;
+    margin-right: 25px;
+    border-radius: 10px;
+
+}
+
+.v2 {
+    width: 300px;
+   border-radius: 10px;
+    
+}
+
+.footer-bg {
+    text-align: center;
+    padding: 100px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.campo {
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #0E0E0E;
+    border: 1px solid #13975E;
+    outline: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 20ox;
+    background-color: #070707;
+   
+
+}
+#conteudo{
+    margin-top: 50px;
+    padding: 20px 100px 100px 100px;  
+ }
+ table {
+     width: 100%;  
+     border-collapse: collapse;     
+     
+ 
+ }
+ 
+ th, td {
+     border: solid 1px #eee;
+     padding: 20px 15px 20px 15px;  
+ }
+ 
+ th {
+     background-color: rgb(46, 35, 207);
+     color: rgb(247, 242, 242);
+
+ }
+ 
+ tr {
+    color: rgb(247, 242, 242);
+   
+ }
+ 
+
+ tr:nth-child(even){
+     background-color: rgb(87, 86, 84);    /* color fila por medio*/
+ }
+ 
+ 
+ 
+ 
+ 
+ tr:hover {
+     background-color: rgb(110, 201, 218);   /*color gris fuerte al pasar cursor*/
+     cursor: pointer;                     /*cursor manito*/
+ }
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #161815;  
+        display: none;
+        
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 100px 30px 30px 30px;
+
+    }
+
+    .header-txt {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom:15px;
+    }
+
+    .header-txt p {
+        border: 0;
+        padding: 0;
+        margin-bottom: 15px;
+
+    }
+
+
+    .btn-1 {
+        margin: 20px 0;
+    }
+
+    .header-img {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .header-img a {
+        margin: 0 10px;
+       
+    }
+
+    .fotos {
+        padding: 30px;
+
+    }
+
+    h2 {
+        font-size: 60px;
+        line-height: 70px;
+
+
+    }
+
+    .foto-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .video {
+        padding: 30px;
+    }
+
+    .video-content {
+        flex-direction: column;
+
+    }
+
+    .video-1 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .video-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .v1, .v2 {
+        width: 250px;
+        margin: 0 0 20px 0;
+
+    }
+
+    .footer-bg {
+        padding: 30px;
+
+    }
+
+    textarea {
+        width: 250 px !important;
+    }
+
+    .footer-txt {
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
